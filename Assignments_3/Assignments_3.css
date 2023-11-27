@@ -1,0 +1,257 @@
+/* *{
+    background-color: aquamarine;
+    background-blend-mode: color-dodge;
+} */
+.container{
+    border: solid 2px rgb(167, 14, 238);
+    width: 800px;
+    height: 600px;
+    margin-top: 18vh;
+    border-radius: 30px;
+    box-shadow: 1px 0px 1px 1px powderblue;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 0px 1px 2px  palevioletred;
+}
+.container .block2{
+    margin-left: 457px;
+    margin-top: -20px;
+    font-size: 20px;
+    font-family: monospace;
+    
+}
+
+
+.container .block3{
+    margin-top: 50px;
+    margin-left: 104px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.container .block4{
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.container .btn{
+    background-color: rgb(202, 80, 233);
+    margin-top: 63px;
+    margin-left: 254px;
+    cursor: pointer;
+    height: 48px;
+    width: 361px;
+    border-radius: 10px;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    
+}
+.container .btn:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    
+}
+
+
+#FirstName{
+    height: 22px;
+    border-radius: 6px;
+    border: solid 2px royalblue;
+}
+#SecondName{
+    height: 22px;
+    border-radius: 6px;
+    border: solid 2px royalblue;
+}
+#email{
+    height: 22px;
+    border-radius: 6px;
+    border: solid 2px royalblue;
+}
+#num{
+    height: 22px;
+    border-radius: 6px;
+    border: solid 2px royalblue;
+}
+#pass{
+    height: 22px;
+    border-radius: 6px;
+    border: solid 2px royalblue;
+}
+#num::placeholder{
+    text-align: center;
+    font-family: cursive;
+    
+}
+#pass::placeholder{
+    text-align: center;
+    font-family: cursive;
+    
+}
+#SecondName::placeholder{
+    text-align: center;
+    font-family: cursive;
+    
+}
+#FirstName::placeholder{
+    text-align: center;
+    font-family: cursive;
+    
+}
+#DOB::placeholder{
+    text-align: center;
+    font-family: cursive;
+    
+}
+#gender{
+    height: 22px;
+    border-radius: 6px;
+    border: solid 2px royalblue;
+}
+#DOB{
+    height: 22px;
+    border-radius: 6px;
+    border: solid 2px royalblue;
+
+}
+
+.container .block1{
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 50px;
+    padding: 0%;
+}
+.container .block5{
+    margin-top: -22px;
+    margin-left: 405px;
+    font-size: 20px;
+    font-family: monospace;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./Untitled.png) no-repeat ;
+    background-size: cover;
+}
+.container .block6{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 80px;
+    font-family: monospace;
+
+}
+.container .block7{
+    font-size: 20px;
+    margin-top: -23px;
+    margin-left: 448px;
+    font-family: monospace;
+}
+
+.container .block8{
+    font-size: 20px;
+    margin-top: 46px;
+    margin-left: 76px;
+    font-family: monospace;
+
+}
+
+.container .dob{
+    font-size: 20px;
+    margin-top: -27px;
+    margin-left: 550px;
+    font-family: monospace;
+}
+
+
+
+@media (max-width:400px) {
+   
+    
+   
+    .container{
+        font-size: 15px;
+        width: 390px;
+        height: 844px; 
+    }
+    #FirstName,
+    #email,
+    #num,
+    #gender,
+    #pass,
+   #SecondName{
+    font-size: 10px;
+   }
+   .container .block1{
+    margin-left: 90px;
+    margin-top: 10px;
+    font-size: 19px;
+
+   }
+   .container .block3{
+    margin-left: 140px;
+    margin-top: 30px;
+    font-size: 19px;
+
+   }
+   .container .block2{
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 19px;
+
+   }
+   .container .block4{
+    margin-left: 110px;
+    margin-top: 30px;
+    font-size: 19px;
+   }
+   .container .block5{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 19px;
+   }
+   .container .block6{
+    margin-left: 90px;
+    margin-top: 30px;
+    font-size: 19px;
+   }
+   .container .block7{
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 19px;
+   }
+   .container .dob{
+    margin-left: 90px;
+    margin-top: 50px;
+    font-size: 19px;
+   }
+   .container .block8{
+    margin-left: 90px;
+    margin-top: 50px;
+    font-size: 19px;
+   }
+   .container .btn{
+    margin-left: 90px;
+    margin-top: 50px;
+    font-size: 19px;
+   }
+   .container .block8{
+    margin-left: 90px;
+    margin-top: 30px;
+    font-size: 19px;
+   }
+
+   .container .btn{
+    width: 200px;
+   }
+   
+   
+  
+    
+}
